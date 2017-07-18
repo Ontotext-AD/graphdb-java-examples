@@ -11,7 +11,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <graphdb.version>8.1-SNAPSHOT</graphdb.version>
+        <graphdb.version>8.2-SNAPSHOT</graphdb.version>
         <graphdb.artifact.id>graphdb-ee</graphdb.artifact.id>
         <!-- for standard edition
         <graphdb.artifact.id>graphdb-se</graphdb.artifact.id> -->

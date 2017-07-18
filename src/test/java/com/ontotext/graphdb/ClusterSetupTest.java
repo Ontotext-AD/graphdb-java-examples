@@ -7,7 +7,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.RuleChain;
 
-import com.ontotext.test.replicationcluster.base.ClusterBuilder;
+import com.ontotext.test.replicationcluster.base.EmbeddedClusterBuilder;
 import com.ontotext.test.replicationcluster.base.MasterNode;
 import com.ontotext.test.replicationcluster.base.WorkerNode;
 
@@ -16,7 +16,7 @@ import com.ontotext.test.replicationcluster.base.WorkerNode;
  */
 public class ClusterSetupTest {
 
-	ClusterBuilder builder = new ClusterBuilder()
+	EmbeddedClusterBuilder builder = new EmbeddedClusterBuilder()
 			.withWiremock() // use a wiremock for the between nodes communication
 			;
 
